@@ -5,14 +5,9 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/
 
 // 🔑 Replace with your Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyAfu1DQtwCF4OqpeFAfgwNG6g0BxTXflkM",
-  authDomain: "projects-gourav.firebaseapp.com",
-  projectId: "projects-gourav",
-  storageBucket: "projects-gourav.firebasestorage.app",
-  messagingSenderId: "307476656006",
-  appId: "1:307476656006:web:4a76f800fc06a7088a8607",
-  measurementId: "G-G2Q95GPRCQ"
+  
 };
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
