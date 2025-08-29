@@ -30,7 +30,13 @@ Modern, minimal portfolio with blog system built using React, Firebase, and Tail
    - Enable Firestore & Google Auth
    - Add config to `src/firebase.js`
 
-3. **Run**
+3. **Environment Variables**
+   Create `.env` file in root:
+   ```bash
+   VITE_ADMIN_EMAILS=your-email@gmail.com,admin2@gmail.com
+   ```
+
+4. **Run**
    ```bash
    npm start
    ```
